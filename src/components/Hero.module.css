@@ -1,0 +1,26 @@
+.hero {
+  margin-left: 12px;
+  width: 30px;
+  height: 70px;
+  animation: heroBlink 1s infinite;
+  animation-timing-function: step-start;
+  background: black;
+}
+
+@keyframes heroBlink {
+  0% {
+    @apply bg-transparent;
+  }
+  49% {
+    @apply bg-transparent;
+  }
+  50% {
+    @apply bg-base-500;
+  }
+  99% {
+    @apply bg-base-500;
+  }
+  100% {
+    @apply bg-base-500;
+  }
+}

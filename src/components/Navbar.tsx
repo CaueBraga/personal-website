@@ -9,7 +9,7 @@ export function Navbar() {
       </div>
       <div
         className="md:mx-10 text-black
-        hover:border-b-8 hover:border-[#8e97e6] cursor-pointer"
+        hover:border-b-8 hover:border-base-500 cursor-pointer"
       >
         Contact
       </div>

@@ -2,6 +2,8 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Terminal } from "@/components/Terminal";
 import Projects from "@/components/Projects";
+import { Footer } from "@/components/Footer";
+import { Contact } from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Hero />
       <Terminal />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

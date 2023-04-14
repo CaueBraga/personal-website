@@ -22,32 +22,16 @@ interface ProjectData {
 export function ProjectCard(props: ProjectCardProps) {
   const { index } = props;
   const project: ProjectData = data.projects[index];
-  const imgWidth: string = "330px"; //406px x=443.6*406/546 x=330
-  const imgHeight: string = "443px"; //546px x=546*546/672 x=443.6
-  const img = getImg();
-
-  function getImg() {
-    switch (index) {
-      case 0:
-        return project.img;
-      case 1:
-        return project.img;
-      case 2:
-        return project.img;
-      case 3:
-        return project.img;
-    }
-  }
+  const imgWidth: string = "330px";
+  const imgHeight: string = "443px";
 
   return (
     <>
-      <Image alt="" src={project.img} height={100} width={150} />
-
       <div className="flex mt-10 md:mt-16 w-full bg-project-bg text-project-text rounded shadow-project-card lg:h-cardImg">
         <div
           className="hidden lg:block"
           style={{
-            backgroundImage: `url(${img})`,
+            backgroundImage: `url(${data.projects[index].img})`,
             backgroundSize: "cover",
             width: imgWidth,
             height: imgHeight,
@@ -55,6 +39,7 @@ export function ProjectCard(props: ProjectCardProps) {
             minHeight: imgHeight,
           }}
         />
+
         <div className="flex flex-col p-8 lg:p-16">
           <div className="text-4xl font-medium mb-8">{project.title}</div>
           <div className="text-base mb-8 leading-relaxed break-words font-normal">

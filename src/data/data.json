@@ -1,0 +1,73 @@
+{
+  "info": {
+    "name": "Caue",
+    "fullName": "Caue Braga",
+    "description": "I am a frontend developer from Brasília, Brazil, focusing mainly on React and its surroundings technologies.",
+    "email": "cauechavesvb@gmail.com",
+    "email_link": "mailto:tgulmine@gmail.com",
+    "linkedin_link": "https://www.linkedin.com/in/cau%C3%AA-braga-634064255/",
+    "git_link": "https://github.com/CaueBraga",
+    "pdf_title": "curriculum.pdf",
+    "pdf_link": "https://drive.google.com/file/d/14XkZjE05RxtCs9MWedzgFY4Zz9ROy0EE/view?usp=share_link",
+    "location": "Brazil, Brasília - DF",
+    "skills": [
+      "React",
+      "React Hooks",
+      "Next",
+      "Vite",
+      "Javascript",
+      "Typescript",
+      "Tailwind",
+      "Sass",
+      "styled-components",
+      "PostCSS",
+      "Axios",
+      "Fetch API",
+      "Radix",
+      "git",
+      "Node",
+      "Prisma"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Reddit Clone",
+      "description": "Project made with the intention to clone a Reddit subreddit page, contains responsive design and dynamic functionalities by consuming data from an API REST.",
+      "skills": ["HTML5", "React", "Javascript", "Sass", "Axios"],
+      "link_demo": "https://reddit-clone-333.herokuapp.com/",
+      "link_git": "https://github.com/tgulmine/reddit-clone",
+      "img": "../../img/cardreddit1.png"
+    },
+    {
+      "title": "Prime Visuals",
+      "description": "Simulation of prime numbers visual patterns, contains the Ulam Spiral and the Parallax Compression forms of visualization.",
+      "skills": [
+        "HTML5",
+        "React",
+        "Typescript",
+        "Tailwind",
+        "Sass",
+        "ContextAPI"
+      ],
+      "link_demo": "https://primevisuals.netlify.app/",
+      "link_git": "https://github.com/tgulmine/prime-visuals",
+      "img": "../../img/cardprime1.png"
+    },
+    {
+      "title": "Dog & Quote",
+      "description": "Web Application that shows a random quote and picture of a dog dinamically, through the data consumption from Type.Fit Quotes API & Dog API.",
+      "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
+      "link_demo": "https://dog-and-quote.netlify.app/",
+      "link_git": "https://github.com/tgulmine/dog-and-quote",
+      "img": "../../img/carddog1.png"
+    },
+    {
+      "title": "Shopping Cart",
+      "description": "A challenge made for practice, an API provides products and vouchers information, and the application simulates a shopping cart. The prices and quantities are updated as the user adds products to the cart. The voucher codes are #30OFF, #100DOLLARS & #SHIPIT.",
+      "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
+      "link_demo": "https://shopping-cart-challenge.netlify.app/",
+      "link_git": "https://github.com/tgulmine/shopping-cart",
+      "img": "../../img/cardcart2.png"
+    }
+  ]
+}

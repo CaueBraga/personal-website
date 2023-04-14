@@ -1,0 +1,25 @@
+.terminal {
+  animation: terminalBlink 1s infinite;
+  animation-timing-function: step-start;
+  margin-left: 4px;
+  width: 12px;
+  height: 28px;
+}
+
+@keyframes terminalBlink {
+  0% {
+    @apply bg-transparent;
+  }
+  49% {
+    @apply bg-transparent;
+  }
+  50% {
+    @apply bg-base-white;
+  }
+  99% {
+    @apply bg-base-white;
+  }
+  100% {
+    @apply bg-transparent;
+  }
+}

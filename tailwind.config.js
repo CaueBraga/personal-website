@@ -9,7 +9,11 @@ module.exports = {
     extend: {
       colors: {
         base: {
-          500: "#8e97e6",
+          purple: "#8e97e6",
+          blue: "#35feff",
+          gray: "#5a5d7a",
+          yellow: "#e7d184",
+          white: "#edf2f7",
         },
       },
 

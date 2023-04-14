@@ -15,12 +15,12 @@
     @apply bg-transparent;
   }
   50% {
-    @apply bg-base-500;
+    @apply bg-base-purple;
   }
   99% {
-    @apply bg-base-500;
+    @apply bg-base-purple;
   }
   100% {
-    @apply bg-base-500;
+    @apply bg-base-purple;
   }
 }

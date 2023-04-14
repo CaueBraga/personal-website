@@ -28,7 +28,7 @@ export function Hero() {
   return (
     <div className="flex flex-col mt-16 md:mt-24 mb-4 md:mb-16">
       <div className="flex text-hero-title mt-4">
-        <div className="flex text-4.5xl md:text-5xl lg:text-6xl text-base-500 font-monaco">
+        <div className="flex text-4.5xl md:text-5xl lg:text-6xl text-base-purple font-monaco">
           <div className="  mr-4 md:mr-6 lg:mr-10 font-mulish">{">"}</div>
           {myName}
         </div>

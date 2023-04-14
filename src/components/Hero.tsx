@@ -32,6 +32,7 @@ export function Hero() {
           <div className="  mr-4 md:mr-6 lg:mr-10 font-mulish">{">"}</div>
           {myName}
         </div>
+
         <div className={styles.hero} />
       </div>
       <div className="text-xl md:text-2xl text-hero-text font-light mt-10 md:mt-16 leading-loose">

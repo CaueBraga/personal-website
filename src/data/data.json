@@ -25,6 +25,7 @@
       "Fetch API",
       "Radix",
       "git",
+      "Eslint",
       "Node",
       "Prisma"
     ]
@@ -36,7 +37,7 @@
       "skills": ["HTML5", "React", "Javascript", "Sass", "Axios"],
       "link_demo": "https://reddit-clone-333.herokuapp.com/",
       "link_git": "https://github.com/tgulmine/reddit-clone",
-      "img": "../../img/cardreddit1.png"
+      "img": "/img/cardreddit1.png"
     },
     {
       "title": "Prime Visuals",
@@ -51,7 +52,7 @@
       ],
       "link_demo": "https://primevisuals.netlify.app/",
       "link_git": "https://github.com/tgulmine/prime-visuals",
-      "img": "../../img/cardprime1.png"
+      "img": "/img/cardprime1.png"
     },
     {
       "title": "Dog & Quote",
@@ -59,7 +60,7 @@
       "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
       "link_demo": "https://dog-and-quote.netlify.app/",
       "link_git": "https://github.com/tgulmine/dog-and-quote",
-      "img": "../../img/carddog1.png"
+      "img": "/img/carddog1.png"
     },
     {
       "title": "Shopping Cart",
@@ -67,7 +68,7 @@
       "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
       "link_demo": "https://shopping-cart-challenge.netlify.app/",
       "link_git": "https://github.com/tgulmine/shopping-cart",
-      "img": "../../img/cardcart2.png"
+      "img": "/img/cardcart2.png"
     }
   ]
 }

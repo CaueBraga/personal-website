@@ -1,0 +1,24 @@
+.moveButton {
+  margin-top: 20px;
+  transition: 0.15s linear;
+  border: radius;
+  @apply bg-base-purple;
+  text: white;
+  margin-right: 20px;
+  padding: 10px;
+  @apply rounded;
+  color: white;
+  @apply shadow-violet-900;
+}
+
+.moveButton:hover {
+  margin-top: 18px;
+  margin-bottom: 2px;
+  @apply text-base-purple;
+  @apply bg-base-white;
+}
+
+/* 
+"rounded md:mr-5 hover:m-2 bg-base-purple hover:bg-project-demo-bg_hover
+            text-base-white py-2.5 px-3.5 shadow-project-button move-button"
+ */

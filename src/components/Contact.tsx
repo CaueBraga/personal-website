@@ -2,15 +2,16 @@ import * as React from "react";
 import data from "../data/data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGripLinesVertical } from "@fortawesome/free-solid-svg-icons";
+import styles from "./Navbar.module.css";
 
 export function Contact() {
   return (
     <div
-      className="flex flex-col items-center mt-24 mb-8 md:mb-24"
+      className="flex text-base-gray flex-col items-center mt-24 mb-8 md:mb-24"
       id="contact"
     >
-      <div className="text-section-title text-3xl font-medium">Contact me!</div>
-      <div className="mt-6 border-b-8 border-section-border w-16 md:mb-4" />
+      <div className="text-3xl font-medium">Contact me!</div>
+      <div className="mt-6 border-b-8 border-base-purple w-16 md:mb-4" />
       <div
         className="flex md:justify-center flex-col items-center md:flex-row text-contact-links
       text-xl font-base mt-20 md:mt-24 md:mb-4 font-mulish"
@@ -19,8 +20,7 @@ export function Contact() {
           rel="noopener noreferrer"
           href={data.info.email_link}
           target="_blank"
-          className="hover:text-navbar-purple
-        border-button focus:outline-none"
+          className={styles.borderButton}
         >
           {data.info.email}
         </a>
@@ -32,8 +32,7 @@ export function Contact() {
           rel="noopener noreferrer"
           href={data.info.linkedin_link}
           target="_blank"
-          className="hover:text-navbar-purple
-        border-button focus:outline-none"
+          className={styles.borderButton}
         >
           LinkedIn
         </a>
@@ -45,8 +44,7 @@ export function Contact() {
           rel="noopener noreferrer"
           href={data.info.git_link}
           target="_blank"
-          className="hover:text-navbar-purple
-        border-button focus:outline-none"
+          className={styles.borderButton}
         >
           github
         </a>

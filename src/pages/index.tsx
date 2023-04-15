@@ -17,3 +17,9 @@ export default function Home() {
     </div>
   );
 }
+
+//mudar as cors do project section
+//mudar as cores do footer
+//corrigir movimentos invonluntarios do botoes
+//adicionar os meus projetos
+// botar no git  hub

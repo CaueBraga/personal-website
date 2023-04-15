@@ -1,0 +1,14 @@
+.borderButton {
+  border-bottom: solid 0px;
+  @apply border-transparent;
+  padding: 16px 0px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.borderButton:hover {
+  border-bottom: solid 8px;
+  @apply border-b-base-purple;
+  @apply text-base-purple;
+  padding: 12px 0px;
+}

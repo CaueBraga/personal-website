@@ -1,18 +1,10 @@
+import styles from "./Navbar.module.css";
+
 export function Navbar() {
   return (
-    <div className="flex justify-around md:justify-end mt-5 text-base md:text-xl text-navbar-gray font-normal">
-      <div
-        className="md:mx-10 
-        border-button cursor-pointer hover:border-b-8 hover:border-base-purple "
-      >
-        Projects
-      </div>
-      <div
-        className="md:mx-10 text-black
-        hover:border-b-8 hover:border-base-purple cursor-pointer"
-      >
-        Contact
-      </div>
+    <div className="flex gap-10 justify-around md:justify-end mt-6 mb-7 text-base md:text-xl hover:text-base-purple text-base-gray font-normal">
+      <div className={styles.borderButton}>Projects</div>
+      <div className={styles.borderButton}>Contact</div>
     </div>
   );
 }

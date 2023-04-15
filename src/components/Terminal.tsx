@@ -28,8 +28,7 @@ export function Terminal() {
     title: data.info.pdf_title,
     link: data.info.pdf_link,
   };
-  const interests: string[] = data.info.interests;
-  const education: string[] = data.info.education;
+
   const skills: string[] = data.info.skills;
 
   function getStringText(str: string) {

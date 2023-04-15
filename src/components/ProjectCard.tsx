@@ -28,7 +28,7 @@ export function ProjectCard(props: ProjectCardProps) {
 
   return (
     <>
-      <div className="flex rounded  mt-10 md:mt-16 w-full bg-white text-base-gray  shadow-project-card lg:h-cardImg">
+      <div className="flex rounded  mt-10 md:mt-16 w-full bg-white shadow-2xl lg:h-cardImg">
         <div
           className="hidden rounded lg:block"
           style={{
@@ -41,7 +41,7 @@ export function ProjectCard(props: ProjectCardProps) {
           }}
         />
 
-        <div className="flex text-base-gray flex-col p-8 lg:p-16">
+        <div className="flex text-base-gray  flex-col p-8 lg:p-16">
           <div className="text-4xl font-medium mb-8">{project.title}</div>
           <div className="text-base mb-8 leading-relaxed break-words font-normal">
             {project.description}

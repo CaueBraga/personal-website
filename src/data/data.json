@@ -32,50 +32,79 @@
   },
   "projects": [
     {
-      "title": "Reddit Clone",
-      "description": "Project made with the intention to clone a Reddit subreddit page, contains responsive design and dynamic functionalities by consuming data from an API REST.",
-      "skills": ["HTML5", "React", "Javascript", "Sass", "Axios"],
-      "link_demo": "https://reddit-clone-333.herokuapp.com/",
-      "link_git": "https://github.com/tgulmine/reddit-clone",
+      "title": "Coffee Delivery",
+      "description": "Coffee shop app, with a shopping cart and a checkout page. The prices and quantities are updated as the user adds products to the cart.",
+      "skills": [
+        "React",
+        "Hook-form",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Axios",
+        "ContextAPI",
+        "Eslint"
+      ],
+      "link_demo": "https://coffee-delivery-2353454.netlify.app",
+      "link_git": "https://github.com/CaueBraga/coffeeDelivery",
       "img": "/coffee.jpeg"
     },
     {
-      "title": "Prime Visuals",
-      "description": "Simulation of prime numbers visual patterns, contains the Ulam Spiral and the Parallax Compression forms of visualization.",
+      "title": "Movie Catalogue",
+      "description": "A popular movie catalogue app, with genre filters and movie details like cast, trailer, rating and synopsis.",
       "skills": [
-        "HTML5",
         "React",
+        "Next.js",
         "Typescript",
         "Tailwind",
-        "Sass",
-        "ContextAPI"
+        "web API",
+        "Axios",
+        "Eslint"
       ],
-      "link_demo": "https://primevisuals.netlify.app/",
-      "link_git": "https://github.com/tgulmine/prime-visuals",
+      "link_demo": "https://movie-catalogue-66e1e1.netlify.app",
+      "link_git": "https://github.com/CaueBraga/movies-catalogue",
       "img": "/movie.jpeg"
     },
     {
-      "title": "Dog & Quote",
-      "description": "Web Application that shows a random quote and picture of a dog dinamically, through the data consumption from Type.Fit Quotes API & Dog API.",
-      "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
-      "link_demo": "https://dog-and-quote.netlify.app/",
-      "link_git": "https://github.com/tgulmine/dog-and-quote",
+      "title": "Pomodoro Timer",
+      "description": " Timer app to use the Pomodoro technique. With a second page that shows the history and status of the projects.",
+      "skills": [
+        "React",
+        "React-router",
+        "ContextAPI",
+        "Reduce",
+        "Immer",
+        "Vite",
+        "Typescript",
+        "styled-components",
+        "Eslint"
+      ],
+      "link_demo": "https://pomodoro-timer-56374.netlify.app",
+      "link_git": "https://github.com/CaueBraga/pomodoro-timer",
       "img": "/pomodoro.jpeg"
     },
     {
-      "title": "Shopping Cart",
-      "description": "A challenge made for practice, an API provides products and vouchers information, and the application simulates a shopping cart. The prices and quantities are updated as the user adds products to the cart. The voucher codes are #30OFF, #100DOLLARS & #SHIPIT.",
-      "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
-      "link_demo": "https://shopping-cart-challenge.netlify.app/",
-      "link_git": "https://github.com/tgulmine/shopping-cart",
+      "title": "Weather Forecast",
+      "description": "Weather forecast app that uses a public API and shows climate details of world cities.",
+      "skills": [
+        "React",
+        "Vite",
+        "Typescript",
+        "Tailwind",
+        "PostCSS",
+        "Eslint",
+        "web API",
+        "Axios"
+      ],
+      "link_demo": "https://climate-forecast-f53b8f.netlify.app",
+      "link_git": "https://github.com/CaueBraga/climate-forecast",
       "img": "/weather.jpeg"
     },
     {
-      "title": "Shopping Cart",
-      "description": "A challenge made for practice, an API provides products and vouchers information, and the application simulates a shopping cart. The prices and quantities are updated as the user adds products to the cart. The voucher codes are #30OFF, #100DOLLARS & #SHIPIT.",
-      "skills": ["HTML5", "React", "Typescript", "Tailwind", "Sass", "Axios"],
-      "link_demo": "https://shopping-cart-challenge.netlify.app/",
-      "link_git": "https://github.com/tgulmine/shopping-cart",
+      "title": "Task List",
+      "description": "A to-do list that can add, remove and check tasks.",
+      "skills": ["React", "Vite", "Typescript", "Tailwind", "Eslint"],
+      "link_demo": "https://task-list-c384ef.netlify.app",
+      "link_git": "https://github.com/CaueBraga/task-list",
       "img": "/todo.jpeg"
     }
   ]

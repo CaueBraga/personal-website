@@ -4,7 +4,10 @@ import data from "../data/data.json";
 import { GithubLogo } from "@phosphor-icons/react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBlackboard,
+  faExternalLinkAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import styles from "./ProjectCard.module.css";
 
 interface ProjectCardProps {
@@ -28,7 +31,7 @@ export function ProjectCard(props: ProjectCardProps) {
 
   return (
     <>
-      <div className="flex rounded  mt-10 md:mt-16 w-full bg-white shadow-2xl lg:h-cardImg">
+      <div className="flex  rounded mt-10  md:mt-16 w-full bg-white shadow-2xl lg:h-cardImg">
         <div
           className="hidden rounded lg:block"
           style={{

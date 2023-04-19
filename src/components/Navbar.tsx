@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import * as React from "react";
 export function Navbar() {
   function moveToProjects() {
-    window.scrollTo({ top: 1050, behavior: "smooth" });
+    window.scrollTo({ top: 1000, behavior: "smooth" });
   }
   function moveToContact() {
     window.scrollTo({ top: 3800, behavior: "smooth" });

@@ -8,12 +8,14 @@
     "linkedin_link": "https://www.linkedin.com/in/cau%C3%AA-braga-634064255/",
     "git_link": "https://github.com/CaueBraga",
     "pdf_title": "curriculum.pdf",
-    "pdf_link": "https://drive.google.com/file/d/1xAHBpX71H5Je-xDukkjej_uJp42cPyGl/view?usp=drive_link",
+    "pdf_link": "https://drive.google.com/file/d/1m484RHK80rsQviQLGgljCwNoElZJrOhW/view",
     "location": "Brazil, Brasília - DF",
     "skills": [
       "React",
+      "react-query",
       "React Hooks",
-      "Next",
+      "Next.Js",
+      "Nest.js",
       "Vite",
       "Javascript",
       "Typescript",
@@ -21,6 +23,8 @@
       "Sass",
       "styled-components",
       "PostCSS",
+       "Radix/UI",
+       "SchadCn",
       "Axios",
       "Fetch API",
       "Radix",
@@ -31,6 +35,47 @@
     ]
   },
   "projects": [
+    {
+      "isProd": "true",
+      "title": "Linquei",
+      "description": "A project wich i had extensive participation that aims to connect empolyers and candidates for job and intership openings.",
+       "skills": [
+        "React",
+        "React-query",
+        "Hook-form",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Axios",
+        "ContextAPI",
+        "Eslint",
+        "Radix/UI",
+        "Nest.js"
+      ],
+      "link_demo": "https://linquei.pt/",
+      "img": "/linquei.jpg"
+    },
+    {
+       "isProd": "true",
+      "title": "Tahvago",
+      "description": "A project in which I had extensive participation, the purpose of which is to be an application to manage the rental and reservation of physical spaces for various purposes such as study, work and meetings.",
+      "skills": [
+        "React",
+        "React-query",
+        "Hook-form",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Axios",
+        "ContextAPI",
+        "Eslint",
+        "Radix/UI",
+        "Nest.js"
+      ],
+      "link_demo": "https://www.tahvago.com",
+      "link_git": "https://github.com/CaueBraga/coffeeDelivery",
+      "img": "/tahvago.jpg"
+    },
     {
       "title": "Coffee Delivery",
       "description": "Coffee shop app, with a shopping cart and a checkout page. The prices and quantities are updated as the user adds products to the cart.",
@@ -109,3 +154,4 @@
     }
   ]
 }
+
